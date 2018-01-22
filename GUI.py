@@ -8,40 +8,6 @@ import tkinter.messagebox
 from monthlyFinanceBoardUpdated import MFBscript
 import csv
 
-'''root = Tk()
-w = Label(root, text = "Hello Tkinter!")
-w.pack()
-root.mainloop()'''
-
-'''root = Tk()
-logo = PhotoImage(file="test\python_logo_small.png")
-w1 = Label(root, image = logo).pack(side="left")
-w2 = Label(root, padx = 100, justify = CENTER, text = "This is awesome\nThis is the next line").pack(side="right")
-root.mainloop()'''
-
-'''root = Tk()
-logo = PhotoImage(file = "test\python_logo_small.png")
-w1 = Label(root, compound = CENTER, image = logo, justify = CENTER,
-           text = "This is awesome\nThis is a new line", padx = 40, fg = "#fff").pack()
-root.mainloop()'''
-
-'''root = Tk()
-msg = Message(root, text = "MS Society of Canada is where I work").pack()
-root.mainloop()'''
-
-'''import tkinter.messagebox
-root = Tk()
-def callBack():
-        tkinter.messagebox.showinfo("Form Name", "Hello World")
-button = Button(root, text = "Click Here", command =callBack).pack()
-root.mainloop()'''
-
-'''root = Tk()
-indicate = IntVar()
-Label(root, text="Indicate the form you are using.",padx=40,pady=40).pack()
-Radiobutton(root, text="Expense Form",variable = indicate, value = 1,padx=40).pack(anchor=W)
-Radiobutton(root, text="Vendor Payment Form",variable = indicate, value = 2,padx=40).pack(anchor=W)'''
-
 root = Tk()
 root.title("PowerBI Stat Sheet Update")
 root.iconbitmap(r"C:\Users\joh\MS Society of Canada\InfoPath - Documents\Code\Monthly Finance Board\MontlyFinanceBoardUpdated\Broken_MS.ico")
